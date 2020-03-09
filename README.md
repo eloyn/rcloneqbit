@@ -20,7 +20,7 @@ docker run \
   -e WEBUI_PORT=8080 \
   -p 6881:6881 \
   -p 6881:6881/udp \
-  -p 8085:8080 \
+  -p 8080:8080 \
   -v /tupath/config:/config \
   -v /tupath/downloads:/downloads \
   --restart unless-stopped \
